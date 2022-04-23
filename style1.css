@@ -1,0 +1,64 @@
+/* import font */
+@import url(#);
+* {
+    font-family: monospace;
+} /*ทั้งหมด*/
+
+.two {
+        color:yellowgreen;
+        text-decoration: underline;/*ขีดใต้*/
+        text-align: left;
+        border: solid 5px red;/*กรอบ*/
+        border-radius: 10px;/*ความโค้ง*/
+        padding:20px;/*ขอบข้างใน*/
+        margin: 5px;/*ขอบข้างนอก*/
+        background: linear-gradient(#3a7bd5,#3a6073);
+    }
+
+#basichub {
+        color: aqua;
+        text-decoration: overline;/*ขีดบน*/
+        text-align: right;
+        border: dashed 5px blue;
+        margin-left: 10px;
+        margin-right: 1000px;
+        background-color: transparent;/*รับสีจากข้างนอก*/
+    }
+    h3 {
+        text-decoration: line-through; /*ขีดกลาง*/
+        text-align: center;
+        border: dotted 5px black;
+
+    }
+    
+     body {
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;/*Uigradients*/
+        background-size: cover; /*100%จะพอดี*/
+        float: right;
+    } 
+
+    a:hover { /*เอาเม้าสืไปวางเปลี่ยนสี*/
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    a:visited { /*ถ้าเคยเข้าไปแล้วจะสีเขียว*/
+        color:green;
+    }
+
+    a:active { /*เปลี่ยนสีตอนคลิกเร็วๆ*/
+        color: orchid;
+    }
+
+    h1 {
+        display: inline;/*ห้อยู่ในแถวเดียวกัน*/
+        margin-left: 10px;
+    }
+    p:hover {
+        box-shadow: 5px 5px 10px 10px black;
+        opacity: 0.5;
+
+    }
